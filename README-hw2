@@ -1,5 +1,5 @@
 開發環境：
-Window10 + Visual Studio 2022 + OpenCV 3.4.6
+Window10 + Visual Studio 2022 + OpenCV 3.4.6 + C++
 程式功能：
 
 1.邊緣成分圖：將圖片以灰階模式讀入，使用GaussianBlur使照片模糊化；Sobel進行邊緣計算；convertScaleAbs將圖片從CV_16S轉變成CV_8U(才能顯示圖便，否則呈現灰畫面)；最後使用addWeighted將兩張圖片融合(前面利用sobel時，分別做X軸及Y軸)，邊緣成分圖便完成。
